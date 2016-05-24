@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Contact</title>	
+		<!-- 在head里link css -->
+		<!-- 命名小写，空格用dash -->
+		<!-- library 放在自己的code之上 -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="animate.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+		
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav>
+	<img class="nav-log" src="img/icon.png" alt="Logo">
+<ul class="nav-bar">
+   <!-- order list ,ctrl +/-->
+   <!-- ctrl+delete,ctrl+L 增删一行, ctrl+D 选中同项 -->
+	<a href="index.html"><li>Home</li></a>
+	<a href="ticket.html"><li>Ticket</li></a>
+	<a href="about.html"><li>About</li></a>
+	<a href="contact.html"><li>Contact</li></a>
+</ul>
+</nav>
+<!-- 制作form -->
+<form class="contact-form" action="#" method="post">    
+<!-- 与后台对接，action 和method  -->
+		<h1 class="center">Contact Us</h1>
+
+<input class="form-control" type="text" placeholder="Name">
+<input class="form-control" type="text" placeholder="Email">
+<input class="form-control" type="text" placeholder="Phone Number">
+<!-- 文本栏 -->
+
+<select class="form-control">
+	<option  value="general-qustions">General Questions</option>
+	<option value="price">Pricing</option>
+</select>
+<!-- 拉升选项框 -->
+
+
+
+
+
+<label for="gender">Gender</label>
+<!-- 将label和内容连在一起 -->
+<br>
+<div >
+<label>Male</label>
+<input  class="inline" type="radio" name="gender" value="male">
+
+<label>Female</label>
+<input class="inline" type="radio" name="gender" value="Female">
+
+<label>Other</label>
+<input class="inline" type="radio" name="gender" value="other">
+
+<!-- 单选框 ，数据进入数据库，value 值-->
+</div>
+
+
+
+<textarea class="form-control" placeholder="Message"></textarea>
+<!-- 信息填写框 -->
+
+<input class="check" type="checkbox" name="consent"><label for="consent">I have read terms of conditions</label>
+<!--多选 check 框+导语 -->
+
+<input   class="dafaultbtn" type="submit" value="send" >
+
+
+
+</form>
+
+</body>
+</html>
