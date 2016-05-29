@@ -36,25 +36,46 @@
 		<th><h3>Ticket Left</h3></th>
 		<th><h3>Purchase</h3></th>
 	</tr>
-	<tr> 
-	<!-- table row -->
-	<!-- <td colspan="x"></td> 占据x个单元格 -->
-		<td><h3>Avengers</h3></td>
-		<td><h3>$10</h3></td>
-		<td><h3>2015/07/01</h3></td>
-		<td><h3>87</h3></td>
-		<td><h3><button class="dafaultbtn">Buy Ticekt</button></h3></td>
-	</tr>
-	<tr> 
-	<!-- table row -->
-		<td><h3>Star Wars</h3></td>
-		<td><h3>$8</h3></td>
-		<td><h3>2016/5/22</h3></td>
-		<td><h3>2</h3></td>
-		<td><h3><button class="dafaultbtn">Buy Ticekt</button></h3></td>
-	</tr>
+	
 </table>	
 </div>
+<div class="modal fade" id="buy-ticket-modal">
+	  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+      <h5>Buy Ticket</h5>
+      </div>
+      <div class="modal-body">
+      
+      		<input type="text" name="firstname" id="first_name"  placeholder="First Name">
+      		<input type="text" name="lastname" id="last_name"  placeholder="Last Name">
+      		<input type="text" name="phone" id="phonenumber"  placeholder="Phone Number">
+      		<input type="hidden" id="movie_id">
+
+
+     
+
+
+
+      </div>
+      <div class="modal-footer">
+      <input type="button" id="buy-ticket-btn" class="btn  dafaultbtn" value="Submit">
+       </div>
+      </div>
+      </div>
+</div>
+
+<!-- Jquery -->
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ticket.js"></script>
+
+
+
+
+
+
+
 
 
 </body>

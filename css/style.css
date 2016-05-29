@@ -1,54 +1,55 @@
+
 html{
 
-	    background-color: #EFE8E0;
-	    /*rgb格式 rgb（red，green，blue，透明度），0-255，透明度a，0-1*/
-	    background:url(../img/background.jpg);
-	    background-size:cover;
-	    text-align: center;
-	    /*背景图案*/
-	    
+	background-color: #EFE8E0;
+	/*rgb格式 rgb（red，green，blue，透明度），0-255，透明度a，0-1*/
+	background:url(../img/background.jpg);
+	background-size:cover;
+	text-align: center;
+	/*背景图案*/
+
 }
+
 body{
 
 	background-color: transparent;
 }
 
 nav{
-	background-color: rgba(63,132,172,0.3);
+	background-color: rgba(86,102,131,0.6);
 
 }
 
 /*定义越详细，优先级越高*/
- /*选择class, DRY: don't repeat yourself*/ 
+/*选择class, DRY: don't repeat yourself*/ 
 
 
 
 /*选择ul 下的li 使用class*/
 a{
-
 	color: #fff;
 	text-decoration: none;
 }
 
 a:focus,a:hover{
-color: white;
+	color: white;
 
 }
 .nav-bar{	
-margin: 0;
+	margin: 0;
 
-/*float: left;*/
+	/*float: left;*/
 
 }
 nav{
 /*display: inline-block;
 width: 100%;*/
-  height: 78px;
-  position: fixed;
-  width: 100%;
-  z-index: 99;
-  top: 0;
-  /*将导入栏提高z轴*/
+height: 78px;
+position: fixed;
+width: 100%;
+z-index: 99;
+top: 0;
+/*将导入栏提高z轴*/
 
 }
 .nav-bar {
@@ -57,22 +58,23 @@ width: 100%;*/
 }
 
 .nav-bar li{
-display: inline-block;
-border:1px solid #fff;
-border-radius: 7px;
-margin: 10px;
-/*space between a and other objects*/
-padding: 10px;
-/*space between text content and border*/
-/*float: right;*/
-font-size: 20px;
-transition: background-color 0.5s linear;
-/*背景渐变效果*/
+	font-family: 'Dancing Script', cursive;
+	display: inline-block;
+	border:1px solid #fff;
+	border-radius: 7px;
+	margin: 10px;
+	/*space between a and other objects*/
+	padding: 10px;
+	/*space between text content and border*/
+	/*float: right;*/
+	font-size: 20px;
+	transition: background-color 0.5s linear;
+	/*背景渐变效果*/
 }
 .nav-bar li:hover{
-background-color: rgba(255,255,255,0.5);
-cursor: pointer;
-/*点击变化 变化效果要和nav-bar li里对应*/
+	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
+	/*点击变化 变化效果要和nav-bar li里对应*/
 }
 
 
@@ -80,22 +82,22 @@ cursor: pointer;
 	/*float: right;*/
 	width: 50px;
 	margin-left: 10px;
-    margin-top: 10px;
-    width: 63px;
-    float: left;
+	margin-top: 10px;
+	width: 63px;
+	float: left;
 
 }
 /*help calsse*/
 .center{
 	text-align:center;
 
-    margin-top: 101px;
-
+	margin-top: 40px;
 }
 .hometitle{
 
 	font-family: 'Courgette', cursive;
-	font-size: 5rem;
+	margin-top: 6px;
+	font-size: 6rem;
 	/*rem,倍数，以14px为基数的方法单位*/
 	/*图片用%*/
 }
@@ -103,116 +105,33 @@ cursor: pointer;
 
 	width:100%;
 }
+
+.carouselslide{
+width: 50%;
+
+
+
+}
 .post{
 
-border:10px;
-margin: 10px;
-text-align:center;
-
-
-}
-.post div{
-	width:30%;
-	height: 800px;
-	border:8px;
-	margin: 15px;
-	border:10px solid;
-	border-color:white;
-	margin-bottom: 20px;
-	display: inline-block;
-	position: relative;
-	transition: all 0.5s linear;
-	-webkit-filter:brightness(50%);
-    /*filter: grayscale(100%);*/
-
-
-}
-.post div:hover{
-
-width:31%;
-height: 820px;
--webkit-filter:brightness(100%);
-font-size:2em;
-z-index:50;
-box-shadow: 15px 30px 30px #000;
-text-shadow: 20px 60px 20px #000;
-
-  /* filter: brightness(100%);
-*/
-}
-
-.hcenter{
-margin-left:auto;
-margin-right: auto;
-/*居中表格*/
-
-}
-.post div img
-{
-width:100%;
-height: 100%;
-
-}
-.foot{
-text-align:center;
-
-}
-
-.foot li{
-	display: inline-block;
-	font-size: 1.5em;
-	color: #FFF;
-	border-radius: 41px; 
-	margin: 5px;
+	border:10px;
+	margin: 10px;
 	text-align:center;
-}
-.post div h3{
-position: absolute;
-top: 50%;
-width: 100%;
-font-size: 3em;
-color:#FBECEC;
-transform: translateY(-50%);
-}
 
-
-
-/*ticket style*/
-.tic h1{
-
-margin:3.67em;
-margin-bottom: 29px;
-margin-top: 101px;
 
 }
-.tic{
+.check{
 
-margin-top: 5em;
-margin:;
-}
-.tic table
-{
-
-	border-collapse: collapse;
-	/*去除边框间的space*/
-}
-.tic td,th{
-	/*逗号代表平行关系*/
-border:1px solid black;
-padding: 20px;
+background-color: red;
 
 }
 .dafaultbtn
 {
-font-size: 1.5rem;
-background-color: transparent;
-border:1px solid black;
-padding: 10px;
-border-radius: 5px;
-}
-
-.dafaultbtn{
-
+	font-size: 1.5rem;
+	background-color: transparent;
+	border:1px solid black;
+	padding: 10px;
+	border-radius: 5px;
 	background-color:#7A9EAF;
 	border-color: #7A9EAF;
 	color: #FFFDD6;
@@ -225,60 +144,197 @@ border-radius: 5px;
 }
 
 .dafaultbtn:hover{
-box-shadow: 0px 0px 0px #000;
-font-size: 30px;
+	box-shadow: 0px 0px 0px #000;
+	font-size: 30px;
+}
+
+.hcenter{
+	margin-left:auto;
+	margin-right: auto;
+
+	/*居中表格*/
+}
+
+
+
+
+
+.label{
+
+
+	font-weight: 0px;
+}
+
+
+.foot{
+	text-align:center;
+	padding: 10px;
+	float: right;
+	margin-top: 7px;
+}
+
+.item{	
+
+width: 100%;
+
+}
+	.carousel{
+	position: relative;
+    width: 100%;
+    height: 68%;
+    margin-left: auto;
+    margin-right: auto;
+
+	}
+	.carousel-inner{		
+
+	position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+	}
+
+	/*help fuctions ends*/
+
+
+	.post div{
+		padding: 0px;
+		width:30%;
+		height: 780px;
+		border:8px;
+		margin: 15px;
+		border:10px solid;
+		border-color:white;
+		margin-bottom: 20px;
+		display: inline-block;
+		position: relative;
+		transition: all 0.5s linear;
+		-webkit-filter:brightness(50%);
+		/*filter: grayscale(100%);*/
+
+
+	}
+	.post div:hover{
+
+		width:31%;
+		height: 790px;
+		-webkit-filter:brightness(100%);
+		font-size:2em;
+		z-index:50;
+		box-shadow: 15px 30px 30px #000;
+		text-shadow: 20px 60px 20px #000;
+
+  /* filter: brightness(100%);
+  */
+}
+
+
+.post div img
+{
+	width:100%;
+	height: 100%;
+
+}
+
+
+.foot li{
+	display: inline-block;
+	font-size: 1.5em;
+	color: #FFF;
+	border-radius: 41px; 
+	margin: 5px;
+	text-align:center;
+}
+.post div h3{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	font-size: 3em;
+	color:#FBECEC;
+	transform: translateY(-50%);
+}
+
+
+
+/*ticket style*/
+.tic h1{
+
+	margin:3.67em;
+	margin-bottom: 29px;
+	margin-top: 101px;
+
+}
+.tic{
+
+	margin-top: 5em;
+	margin:;
+}
+.tic table
+{
+
+	border-collapse: collapse;
+	/*去除边框间的space*/
+}
+.tic td,th{
+	/*逗号代表平行关系*/
+	border:1px solid black;
+	padding: 20px;
+
 }
 
 /*Contact Style*/
 .check{
-margin-left: auto;
-margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 
 
 }
 .contact-form{
 
-margin-top: 5rem;
+	margin-top: 5rem;
 
 
 }
 input, select,textarea{
-padding: 15px;
-/*width: 200px;*/
-display: block;
-border-radius: 5px;
-margin: 5px auto;
-/*上下5px,左右auto，居中*/
-border:1px solid white;
+	padding: 15px;
+	/*width: 200px;*/
+	display: block;
+	border-radius: 5px;
+	margin: 5px auto;
+	/*上下5px,左右auto，居中*/
+	border:1px solid white;
 }
 
 
 .inline{
-display: inline-block;
+	display: inline-block;
 
 }
 
 /*about us style*/
 
 .about{
-    font-size: 5em;
-    margin-top: 160px;
-    float: left;
+	font-size: 5em;
+	margin-top: 160px;
+	float: left;
 
 }
 .textbox{
 	font-size: 2em;
-    margin-top: 50px;
-    float: left;
-        margin-left: 136px;
-    margin-right: 224px;
-    border:1px none white;
-    background-color:rgba(81,86,97,0.3);
+	margin-top: 50px;
+	float: left;
+	margin-left: 136px;
+	margin-right: 224px;
+	border:1px none white;
+	background-color:rgba(81,86,97,0.3);
 }
+
 .form-control{
 
-margin-top: 5rem;
-width: 300px;
+	margin-top: 5rem;
+	width: 300px;
 
 }
 input[type=checkbox], input[type=radio] {
@@ -287,38 +343,128 @@ input[type=checkbox], input[type=radio] {
 
 
 /*Responsive Design, media query*/
-@media(max-width: 941px){
+/* Small devices (tablets, 768px and up) */
 
-.poster div{
 
-width:40%;
-margin-bottom: 20px;
-
-}
-.poster div:hover{
-	width: 44%
-}
-
-}
-@media(max-width:500px){
-.poster div{
-
-width: 95%;
-
-}
-.poster div:hover{
-
-	width: 97%;
-}
-.poster div h3{
-
-	font-size: 
-}
 
 
 }
 .full-width{
+	width: 100%;
+}
+img{
 width: 100%;
+
+}
+
+
+
+
+
+/*---------------*/
+/***** Sarah 图片动画效果*****/
+/*---------------*/
+
+figure.effect-sarah {
+	background: rgba(241, 241, 241, 0);
+}
+
+figure.effect-sarah img {
+	max-width: none;
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: -webkit-filter 0.35s linear, -webkit-transform 0.35s linear;
+	transition: -webkit-filter 0.35s linear, transform 0.35s linear
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-sarah:hover img {
+	
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-filter:brightness(70%);
+}
+
+figure.effect-sarah figcaption {
+	text-align: left;
+	width: 543px;
+}
+
+figure.effect-sarah h2 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+
+figure.effect-sarah h2::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect-sarah:hover h2::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-sarah p {
+	padding: 6em 16px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+    width: 844px;
+    margin-left: 34px;
+    color: white;
+    font-size: 21px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-style: oblique;
+}
+
+figure.effect-sarah:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+@media (min-width: 1200px){
+	.container {
+    width: 93%;
+}
+
+}
+
+@media screen and (min-width: 768px)
+{
+
+figure.effect-sarah p{}
+
+
+
+
+
+
 
 
 }
+
+

@@ -1,0 +1,44 @@
+html {
+	background:url(../img/aboutpage.jpg);
+	background-size:cover;
+	
+			}	
+
+a {
+    color: #E3E2DE;
+    text-decoration: none;
+}
+
+
+.nav-bar {
+	float: right;
+	padding: 8px;
+}
+
+.nav-bar li{
+	display: inline-block;
+	border:1px solid #fff;
+	font-family: 'Dancing Script', cursive;
+	border-radius: 7px;
+	margin: 10px;
+	/*space between a and other objects*/
+	padding: 10px;
+	/*space between text content and border*/
+	/*float: right;*/
+	font-size: 20px;
+	transition: background-color 0.5s linear;
+	/*背景渐变效果*/
+}
+.nav-bar li:hover{
+	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
+	/*点击变化 变化效果要和nav-bar li里对应*/
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}

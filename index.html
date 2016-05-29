@@ -25,24 +25,85 @@
 	<a href="contact.html"><li>Contact</li></a>
 </ul>
 </nav>
-<img class="fullwidth" src="img/movie-banner-1.jpg">
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    <li data-target="#mycarousel" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+    	 <a data-toggle="modal" data-target="#myModal">
+    	 <figure class="effect-sarah">
+      		<img src="img/movie-banner-1.jpg" alt="First slide"></a>
+
+      	<figcaption>	
+      			<p>Mercenary leader Barney Ross (Sylvester Stallone), Lee Christmas (Jason Statham) and the rest of the Expendables team reunite when Mr. Church (Bruce Willis) hires them for a seemingly easy job. But things go terribly wrong, compelling the mercenaries to seek revenge for a comrade's murder. With the odds against them, Barney and his team are hell-bent on payback and cut a path of destruction through opposing forces, only to encounter an unexpected threat: six pounds of weapons-grade plutonium.</p>
+      </figcaption>	
+    </div>
+
+
+    <div class="item">
+   	 <figure class="effect-sarah">
+      <img src="img/movie-banner-2.jpg" alt="Second slide">
+      <figcaption>	
+      <p>Luke Skywalker has vanished. In his absence, the sinister FIRST ORDER has risen from the ashes of the Empire and will not rest until Skywalker, the last Jedi, has been destroyed.
+      With the support of the REPUBLIC, General Leia Organa leads a brave RESISTANCE. She is desperate to find her brother Luke and gain his help in restoring peace and justice to the galaxy.
+      Leia has sent her most daring pilot on a secret mission to Jakku, where an old ally has discovered a clue to Luke's whereabouts....
+       </p>
+      </figcaption>	
+
+    </div>
+    </figure>
+    <div class="item">
+     <figure class="effect-sarah">
+      <img src="img/movie-banner-3.jpg" alt="Third slide">
+
+      <figcaption>	
+      <p>It has been eight years since Batman (Christian Bale), in collusion with Commissioner Gordon (Gary Oldman), vanished into the night. Assuming responsibility for the death of Harvey Dent, Batman sacrificed everything for what he and Gordon hoped would be the greater good. However, the arrival of a cunning cat burglar (Anne Hathaway) and a merciless terrorist named Bane (Tom Hardy) force Batman out of exile and into a battle he may not be able to win. </p>
+      </figcaption>	
+    </div>
+
+     <div class="item">
+       <figure class="effect-sarah">
+      <img src="img/movie-banner-4.jpg" alt="Third slide">
+      <figcaption>	
+      <p>Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move. 	</p>
+      </figcaption>	
+  </div>
+
+
+  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+    <span class="icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+    <span class="icon-next" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
 <h1 class="center hometitle"><i class="fa fa-film" aria-hidden="true"></i>
  &nbsp Upoming Movies</h1>
+ <div class="container about-content">
  <div class="post">
- <div>
- <img  src="img/movie-poster-0.jpg">
+ <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+ <img class="full-width" src="img/movie-poster-0.jpg">
  <h3>Avengers</h3>
  </div>
- <div>
- <img  src="img/movie-poster-1.jpg">
+ <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+ <img class="full-width" src="img/movie-poster-1.jpg">
  <h3>Star Wars</h3>
  </div>
- <div>
- <img  src="img/movie-poster-2.jpg">
+ <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+ <img class="full-width" src="img/movie-poster-2.jpg">
  <h3>Titanic</h3>
  </div>
 </div>
-
+</div>
 <footer>
 	<ul class="foot">
 		<li>About Us</li>
@@ -51,5 +112,7 @@
 	</ul>
 
 </footer>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
